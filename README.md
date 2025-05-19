@@ -73,5 +73,11 @@ Retention: Easy navigation keeps users coming back.
 Brand Identity: Consistent UI reflects professionalism and trust.
 In summary, building an E-learning platform UI leverages web development tools—primarily HTML, CSS, and JavaScript—usually developed in a modern code editor like VS Code and tested on web browsers. This UI is crucial for a wide range of educational scenarios, from schools to professional training, enabling users to learn efficiently and enjoyably in an online environment.
 
+# OUTPUT
+
+![Image](https://github.com/user-attachments/assets/08feec4a-7e37-48ce-b691-1ea5bcb189c7)
+
+![Image](https://github.com/user-attachments/assets/5e2bcdc2-3cb6-4467-a357-a8c1ca8dafa3)
+
 
 
