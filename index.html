@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 E-Learning Platform</h1>
+  </header>
+
+  <main>
+    <section id="course-list">
+      <h2>Available Courses</h2>
+      <div class="courses">
+        <div class="course" onclick="loadCourse('HTML Basics', 'https://www.youtube.com/embed/UB1O30fR-EE', 30)">
+          <img src="https://via.placeholder.com/150" alt="HTML Course">
+          <h3>HTML Basics</h3>
+          <p>Learn the foundations of web development with HTML.</p>
+        </div>
+        <div class="course" onclick="loadCourse('CSS Fundamentals', 'https://www.youtube.com/embed/yfoY53QXEnIc', 60)">
+          <img src="https://via.placeholder.com/150" alt="CSS Course">
+          <h3>CSS Fundamentals</h3>
+          <p>Style your websites with beautiful CSS layouts.</p>
+        </div>
+        <div class="course" onclick="loadCourse('JAVASCRIPT Master', 'https://www.youtube.com/embed/hdI2bqOjy3c',50)">
+            <img src="https://via.placeholder.com/150" alt="JAVASCRIPT Course">
+            <h3>JAVASCRIPT Master</h3>
+            <p>Dynamic programming language primarily used for adding interactivity and dynamic features to websites and web applications</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="course-player">
+      <h2 id="course-title">Select a course to start learning</h2>
+      <iframe id="video-frame" src="" frameborder="0" allowfullscreen></iframe>
+      <div class="progress-container">
+        <label>Progress: </label>
+        <progress id="progress-bar" value="0" max="100"></progress>
+        <span id="progress-label">0%</span>
+        <button onclick="updateProgress()">+10%</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
